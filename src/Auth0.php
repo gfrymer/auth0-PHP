@@ -179,7 +179,7 @@ class Auth0
      *
      * @var \Auth0\SDK\API\Authentication
      */
-    protected $authentication;
+    public $authentication;
 
     /**
      * Configuration options for Guzzle HTTP client.
